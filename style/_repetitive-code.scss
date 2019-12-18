@@ -1,0 +1,12 @@
+@mixin backgroundImage ($url, $size, $posX, $posY, $overlayColor){
+    background-image: 
+        linear-gradient(
+            $overlayColor,
+            $overlayColor
+        ),
+        url($url);
+    background-size: $size;
+    background-position: $posX $posY;
+    background-repeat: no-repeat;
+    background-color: black !important;
+}

@@ -1,0 +1,87 @@
+/* Color variables */
+/* Repetitive code */
+/* Global */
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: #000000;
+}
+
+body a:hover {
+  /* hover */
+  font-weight: bold;
+  color: #facb0b !important;
+}
+
+body p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+body h1 {
+  color: #dae121;
+  font-size: 80px;
+  font-family: 'Lobster',cursive;
+}
+
+body h2 {
+  color: #EDAE49;
+  font-size: 60px;
+  font-family: 'Lobster',cursive;
+}
+
+body h3 {
+  font-size: 40px;
+  font-family: 'Lobster',cursive;
+}
+
+body h4 {
+  font-size: 30px;
+  font-family: 'Lobster',cursive;
+}
+
+/* Header */
+.site-header {
+  padding: 0px 60px;
+}
+
+.site-header .site-branding {
+  background-image: url(../images/logo.PNG);
+  background-size: contain;
+  height: 65px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.site-header .nav-item .nav-link {
+  color: black;
+}
+
+.site-header #active {
+  color: #EDAE49;
+}
+
+/* Main section */
+.section-main {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/plates-background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/plates-background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: black !important;
+  padding: 150px 20px 350px 20px;
+  text-align: center;
+}
+
+.section-main p {
+  color: #EDAE49;
+  font-size: 40px;
+}
+/*# sourceMappingURL=style.css.map */
