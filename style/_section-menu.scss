@@ -1,0 +1,38 @@
+.section-menu {
+    padding: 10px 150px;
+    background-color: $brightYellow;
+    .col-md-4 {
+        text-align: center;
+        padding: 10px;
+        img {
+            width: 250px;
+            height: 175px;
+        }
+    }
+    .col-md-12 {
+        text-align: center;
+        button {
+            background: $fourthColor;
+            padding: 20px 20px;
+            border-radius: 50px;
+            color: $brightYellow;
+            font-size: 30px;
+            &:hover {
+                background: $greenHover;
+                color: white;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .section-menu {
+        padding: 10px 40px;
+        .col-md-4 {
+            img {
+                width: 200px;
+                height: 150px;
+            }
+        }
+    }
+}

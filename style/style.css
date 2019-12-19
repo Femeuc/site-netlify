@@ -84,4 +84,47 @@ body h4 {
   color: #EDAE49;
   font-size: 40px;
 }
+
+/* Menu section */
+.section-menu {
+  padding: 10px 150px;
+  background-color: #FEF5CE;
+}
+
+.section-menu .col-md-4 {
+  text-align: center;
+  padding: 10px;
+}
+
+.section-menu .col-md-4 img {
+  width: 250px;
+  height: 175px;
+}
+
+.section-menu .col-md-12 {
+  text-align: center;
+}
+
+.section-menu .col-md-12 button {
+  background: #34702c;
+  padding: 20px 20px;
+  border-radius: 50px;
+  color: #FEF5CE;
+  font-size: 30px;
+}
+
+.section-menu .col-md-12 button:hover {
+  background: #145f14;
+  color: white;
+}
+
+@media only screen and (max-width: 1060px) {
+  .section-menu {
+    padding: 10px 40px;
+  }
+  .section-menu .col-md-4 img {
+    width: 200px;
+    height: 150px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
