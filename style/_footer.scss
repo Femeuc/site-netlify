@@ -1,0 +1,12 @@
+.site-footer {
+    text-align: center;
+    background-color: $dark;
+    p {
+        color: $white;
+        margin: 0px;
+    }
+    padding: 40px;
+    a {
+        color: $primaryColor;
+    }    
+}

@@ -1,15 +1,17 @@
 /* Color variables */
+/* cor usada no footer */
 /* Repetitive code */
 /* Global */
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding: 0;
 }
 
 body a {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
-  color: #000000;
+  cursor: pointer;
 }
 
 body a:hover {
@@ -68,6 +70,12 @@ body h4 {
   color: #EDAE49;
 }
 
+@media only screen and (max-width: 450px) {
+  .site-header {
+    padding: 10px;
+  }
+}
+
 /* Main section */
 .section-main {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/plates-background.jpg");
@@ -87,7 +95,7 @@ body h4 {
 
 /* Menu section */
 .section-menu {
-  padding: 10px 150px;
+  padding: 20px 150px;
   background-color: #FEF5CE;
 }
 
@@ -107,7 +115,7 @@ body h4 {
 
 .section-menu .col-md-12 button {
   background: #34702c;
-  padding: 20px 20px;
+  padding: 20px;
   border-radius: 50px;
   color: #FEF5CE;
   font-size: 30px;
@@ -126,5 +134,24 @@ body h4 {
     width: 200px;
     height: 150px;
   }
+  .section-menu .col-md-12 button {
+    font-size: 20px;
+  }
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  background-color: #3A3A3A;
+  padding: 40px;
+}
+
+.site-footer p {
+  color: #ffffff;
+  margin: 0px;
+}
+
+.site-footer a {
+  color: #EDAE49;
 }
 /*# sourceMappingURL=style.css.map */
