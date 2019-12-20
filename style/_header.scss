@@ -1,18 +1,26 @@
 .site-header {
     padding: 0px 60px;
-    .site-branding {
-        background-image: url(../images/logo.PNG);
-        background-size: contain;
-        height: 65px;
-        width: 150px;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-    .nav-item .nav-link {
-        color: black;
-    }
-    #active {
-        color: $primaryColor;
+    nav {
+        .site-branding {
+            background-image: url(../images/logo.PNG);
+            background-size: contain;
+            height: 65px;
+            width: 150px;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        ul {
+            .nav-item .nav-link {
+                color: black;
+                &:hover {
+                    color: $secondaryColor;
+                    font-weight: bold;
+                }
+            }
+            #active {
+                color: $primaryColor;
+            }
+        }
     }
   }
 
