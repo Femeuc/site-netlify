@@ -17,44 +17,10 @@
 @import './section-menu';
 
 /* Welcome section */
-.section-welcome {
-    padding: 20px 20px;
-    text-align: center;
-    .row {
-        margin: 0 100px;
-        .col-sm-6 {
-            padding: 20px;
-            h3 {
-                font-family: 'Lato', sans-serif;
-                color: $fourthColor;
-            }
-            a {
-                color: $black;
-                background: $brightYellow;
-                padding: 20px;
-                display: block;
-                margin: auto;
-                width: 200px;
-                border: 1px solid $black;   
-                border-top-left-radius: 50px;
-                border-top-right-radius: 50px;
-                border-bottom-left-radius: 50px;
-                border-bottom-right-radius: 50px;
-                &:hover {
-                    background: $brightHover;
-                    transition: 1s;
-                }
-            }
-        }
-    }
-}
+@import './section-welcome';
 
-@media only screen and (max-width: 700px) {
-  .section-welcome {
-    padding: 10px;
-    .row {margin: 0;}
-  }
-}
+/* Testimonial section */
+@import './section-testimonial';
 
 /* Footer */
 @import './footer';
