@@ -1,4 +1,4 @@
-@mixin backgroundImage ($url, $size, $posX, $posY, $overlayColor){
+@mixin sectionMain ($url, $size, $posX, $posY, $overlayColor){
     background-image: 
         linear-gradient(
             $overlayColor,
@@ -9,4 +9,9 @@
     background-position: $posX $posY;
     background-repeat: no-repeat;
     background-color: black !important;
+    text-align: center;
+    p {
+        color: $primaryColor;
+        font-size: 40px;
+    }
 }

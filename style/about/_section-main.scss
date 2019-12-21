@@ -1,0 +1,4 @@
+.section-main-about {
+    @include sectionMain ("../images/about-main.jpg", cover, center, center, rgba(0,0,0,.7));
+    padding: 150px 20px 150px 20px;
+}

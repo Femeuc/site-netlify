@@ -1,0 +1,4 @@
+.section-main-home {
+    @include sectionMain ("../images/plates-background.jpg", cover, center, bottom, rgba(0,0,0,.6));
+    padding: 150px 20px 350px 20px;
+}

@@ -1,39 +1,42 @@
-.section-testimonial #demo {
-    text-align: center;
-    padding: 10px;
-    .carousel-inner {
-        img {
-            border-radius: 50%;
-            width: 200px;
-            height: 180px;
+.section-testimonial {
+    margin-top: 20px;
+    #demo {
+        text-align: center;
+        padding: 10px;
+        .carousel-inner {
+            img {
+                border-radius: 50%;
+                width: 200px;
+                height: 180px;
+            }
+            .carousel-caption {
+                position: static;
+                color: $primaryColor;
+                font-family: 'Lato', sans-serif;
+                font-weight: bold;
+                padding: 0px;
+            }
         }
-        .carousel-caption {
+        a {
+        width: 35px;
+        height: 30px;
+        border-radius: 35%;
+        top: 100px;
+        span {
+            background-color: $fourthColor;
+            padding: 15px;
+        }
+        }
+        
+        .carousel-indicators {
             position: static;
-            color: $primaryColor;
-            font-family: 'Lato', sans-serif;
-            font-weight: bold;
-            padding: 0px;
+            li {
+                background-color: rgba(0,0,0,.3); 
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+            }
+            .active {background-color: $fourthColor;}
         }
-    }
-    a {
-      width: 35px;
-      height: 30px;
-      border-radius: 35%;
-      top: 100px;
-      span {
-          background-color: $fourthColor;
-          padding: 15px;
-      }
-    }
-    
-    .carousel-indicators {
-        position: static;
-        li {
-            background-color: rgba(0,0,0,.3); 
-            width: 15px;
-            height: 15px;
-            border-radius: 50%;
-        }
-        .active {background-color: $fourthColor;}
     }
 }

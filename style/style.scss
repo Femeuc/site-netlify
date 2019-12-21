@@ -1,26 +1,45 @@
-/* Color variables */
-@import "./variables";
+/* Color variables */                  /*                  */   
+@import "./variables";                 /*                  */
+                                       /*                  */
+/* Repetitive code */                  /*                  */
+@import './repetitive-code';           /*                  */
+                                       /*    ALL PAGES     */
+/* Global */                           /*                  */
+@import './global';                    /*                  */
+                                       /*                  */
+/* Header */                           /*                  */
+@import './header';                    /*                  */
+                                       /*                  */
+/* Testimonial section */              /*    ALL PAGES     */
+@import './section-testimonial';       /*                  */
+                                       /*                  */
+/* Footer */                           /*                  */
+@import './footer';                    /*                  */
 
-/* Repetitive code */
-@import './repetitive-code';
+/*-----------------------------------------------------------*/
 
-/* Global */
-@import './global';
+/* Home main section */                /*                  */
+@import './home/section-main';         /*                  */
+                                       /*                  */
+/* Menu section */                     /*    HOME PAGE     */
+@import './home/section-menu';         /*                  */
+                                       /*                  */
+/* Welcome section */                  /*                  */
+@import './home/section-welcome';      /*                  */
 
-/* Header */
-@import './header';
+/*-----------------------------------------------------------*/        
 
-/* Main section */
-@import './section-main';
+@import './menu/section-main';          /*                  */
+                                        /*                  */
 
-/* Menu section */
-@import './section-menu';
+/*-----------------------------------------------------------*/
 
-/* Welcome section */
-@import './section-welcome';
+@import './about/section-main';         /*                  */
+                                        /*                  */
 
-/* Testimonial section */
-@import './section-testimonial';
+/*---------------------------------------------------------------*/
 
-/* Footer */
-@import './footer';
+@import './contact/section-main';           /*                  */
+                                            /*                  */
+
+/*---------------------------------------------------------------*/
