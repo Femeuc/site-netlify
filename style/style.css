@@ -42,17 +42,17 @@ body h1 {
 
 body h2 {
   color: #EDAE49;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Lobster',cursive;
 }
 
 body h3 {
-  font-size: 35px;
+  font-size: 20px;
   font-family: 'Lobster',cursive;
 }
 
 body h4 {
-  font-size: 30px;
+  font-size: 10px;
   font-family: 'Lobster',cursive;
 }
 
@@ -189,26 +189,26 @@ body h4 {
 /*                  */
 /* Menu section */
 /*    HOME PAGE     */
-.section-menu {
+.section-menu-showcase {
   padding: 20px 150px;
   background-color: #FEF5CE;
 }
 
-.section-menu .col-md-4 {
+.section-menu-showcase .col-md-4 {
   text-align: center;
   padding: 10px;
 }
 
-.section-menu .col-md-4 img {
+.section-menu-showcase .col-md-4 img {
   width: 250px;
   height: 175px;
 }
 
-.section-menu .col-md-12 {
+.section-menu-showcase .col-md-12 {
   text-align: center;
 }
 
-.section-menu .col-md-12 button {
+.section-menu-showcase .col-md-12 button {
   background: #34702c;
   padding: 20px;
   border-radius: 50px;
@@ -216,7 +216,7 @@ body h4 {
   font-size: 30px;
 }
 
-.section-menu .col-md-12 button:hover {
+.section-menu-showcase .col-md-12 button:hover {
   background: #145f14;
   color: white;
 }
@@ -287,6 +287,7 @@ body h4 {
 
 /*                  */
 /*-----------------------------------------------------------*/
+/* Menu main section */
 .section-main-menu {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/menu-main.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/menu-main.jpg");
@@ -305,6 +306,55 @@ body h4 {
 
 /*                  */
 /*                  */
+/* Menu section */
+.section-menu {
+  padding: 20px;
+  text-align: center;
+}
+
+.section-menu .section-menu-item .col-sm-10 {
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 2px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.section-menu .section-menu-item .col-sm-10 .fas {
+  font-size: 90px;
+}
+
+.section-menu .section-menu-item .col-sm-10 ul {
+  -webkit-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  -webkit-column-width: 200px;
+          column-width: 200px;
+  list-style: none;
+  text-align: left;
+}
+
+.section-menu .section-menu-item .col-sm-10 ul li {
+  position: relative;
+}
+
+.section-menu .section-menu-item .col-sm-10 ul li h3 {
+  color: gray;
+}
+
+.section-menu .section-menu-item .col-sm-10 ul li .span-price {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-style: italic;
+  font-weight: 550;
+  color: gray;
+}
+
+.section-menu .section-menu-item .col-sm-10 ul li p {
+  padding-right: 60px;
+}
+
 /*-----------------------------------------------------------*/
 .section-main-about {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/about-main.jpg");
@@ -324,6 +374,70 @@ body h4 {
 
 /*                  */
 /*                  */
+.section-prizes {
+  background-image: url("../images/prize.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  min-height: 200px;
+  padding: 150px 10px;
+}
+
+.section-specialties {
+  background-image: url("../images/cucumber.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+  min-height: 150px;
+  padding: 50px 10px;
+}
+
+@media only screen and (max-width: 1230px) {
+  .section-prizes {
+    height: 400px;
+    padding: 20px;
+  }
+  .section-specialties {
+    height: 230px;
+    margin-bottom: 120px;
+  }
+}
+
+@media only screen and (max-width: 1230px) and (max-width: 830px) {
+  .section-prizes {
+    margin-bottom: 75px;
+  }
+  .section-specialties {
+    height: 175px;
+    margin-bottom: 120px;
+  }
+}
+
+@media only screen and (max-width: 1230px) and (max-width: 830px) and (max-width: 767px) {
+  .section-prizes {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.5))), url("../images/prize.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)), url("../images/prize.jpg");
+    padding: 20px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: contain;
+    height: auto;
+    margin: auto;
+    padding: 50px 20px;
+  }
+  .section-specialties {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url("../images/cucumber.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../images/cucumber.jpg");
+    padding: 20px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    margin: auto;
+    padding: 50px 20px;
+  }
+}
+
 /*---------------------------------------------------------------*/
 .section-main-contact {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/contact-main.jpg");

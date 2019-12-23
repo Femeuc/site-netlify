@@ -1,0 +1,36 @@
+.section-menu {
+    padding: 20px;
+    text-align: center;
+    .section-menu-item .col-sm-10{
+        padding: 20px;
+        border: 1px solid rgba(0,0,0,.1);
+        box-shadow: 2px 1px rgba(0,0,0,.1);
+        .fas {
+            font-size: 90px;
+        }
+        ul {
+            column-count: 2;
+            column-gap: 40px;
+            column-width: 200px;
+            list-style: none;
+            text-align: left;
+            li {
+                position: relative;
+                h3 {
+                color: $gray;
+                }
+                .span-price {
+                    position: absolute;
+                    top: 5px;
+                    right: 0;
+                    font-style: italic;
+                    font-weight: 550;
+                    color: $gray;
+                }
+                p {
+                    padding-right: 60px;
+                }
+            }
+        }
+    }
+}

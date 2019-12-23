@@ -29,13 +29,84 @@
 
 /*-----------------------------------------------------------*/        
 
+/* Menu main section */
 @import './menu/section-main';          /*                  */
                                         /*                  */
+/* Menu section */
+@import './menu/section-menu';
 
 /*-----------------------------------------------------------*/
 
 @import './about/section-main';         /*                  */
                                         /*                  */
+.section-prizes {
+  background-image: url("../images/prize.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  min-height: 200px;
+  padding: 150px 10px;
+}                                    
+.section-specialties {
+  background-image: url("../images/cucumber.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+  min-height: 150px;
+  padding: 50px 10px;
+
+}    
+@media only screen and (max-width: 1230px) {
+  .section-prizes {
+    height: 400px;
+    padding: 20px;
+  }
+  .section-specialties {
+    height: 230px;
+    margin-bottom: 120px;
+  }
+  @media only screen and (max-width: 830px) {
+    .section-prizes {
+      margin-bottom: 75px;
+    }
+    .section-specialties {
+      height: 175px;
+      margin-bottom: 120px;
+    }
+    @media only screen and (max-width: 767px) {
+      .section-prizes {
+        background-image: 
+            linear-gradient(
+                rgba(255, 255, 255, .8),
+                rgba(255, 255, 255, .5)
+            ),
+            url("../images/prize.jpg");
+        padding: 20px;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: contain; 
+        height: auto;
+        margin: auto;
+        padding: 50px 20px;
+      }
+      .section-specialties {
+        background-image: 
+            linear-gradient(
+                rgba(255, 255, 255, .8),
+                rgba(255, 255, 255, .8)
+            ),
+            url("../images/cucumber.jpg");
+        padding: 20px;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        height: auto;
+        margin: auto;
+        padding: 50px 20px;
+      }
+    }
+  }
+}
 
 /*---------------------------------------------------------------*/
 
