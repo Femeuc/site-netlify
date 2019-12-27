@@ -1,0 +1,32 @@
+.section-contact {
+    padding: 40px 80px;
+    .row {
+      #email-confirm {
+        opacity: 0;
+      }
+      .col-lg-6 iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  
+@media only screen and (max-width: 991px) {
+    .section-contact {
+        padding: 20px;
+    }
+    .col-lg-6 iframe#map {
+        height: 300px;
+    }
+    @media only screen and (max-width: 414px) {
+      .form-row {
+        display:block;
+        #email-confirm {
+            display: none;
+        }
+        #field-email-confirmation {
+            margin-top: 10px;
+        }
+      }
+    }
+}

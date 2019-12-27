@@ -44,30 +44,9 @@
 /*---------------------------------------------------------------*/
 
 @import './contact/section-main';           /*                  */
-                                            /*                  */
-.section-contact {
-  padding: 40px 80px;
-  .row {
-    #email-confirm {
-      opacity: 0;
-    }
-  }
-}
+                                                            
+@import './contact/section-contact';
 
-@media only screen and (max-width: 991px) {
-  .section-contact {
-    padding: 20px;
-  }
-  @media only screen and (max-width: 414px) {
-    .form-row {
-      display:block;
-      #email-confirm {
-        display: none;
-      }
-      #field-email-confirmation {
-        margin-top: 10px;
-      }
-    }
-  }
-}
+@import './contact/section-contact-options';
+
 /*---------------------------------------------------------------*/
