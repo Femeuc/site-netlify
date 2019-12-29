@@ -1,49 +1,49 @@
-/* Color variables */                  /*                  */   
-@import "./variables";                 /*                  */
-                                       /*                  */
-/* Repetitive code */                  /*                  */
-@import './repetitive-code';           /*                  */
-                                       /*    ALL PAGES     */
-/* Global */                           /*                  */
-@import './global';                    /*                  */
-                                       /*                  */
-/* Header */                           /*                  */
-@import './header';                    /*                  */
-                                       /*                  */
-/* Testimonial section */              /*    ALL PAGES     */
-@import './section-testimonial';       /*                  */
-                                       /*                  */
-/* Footer */                           /*                  */
-@import './footer';                    /*                  */
+/* Color variables */                    
+@import "./variables";                
+                                    
+/* Repetitive code */                 
+@import './repetitive-code';          
+                                       
+/* Global */                          
+@import './global';                   
+                                    
+/* Header */                          
+@import './header';                   
+                                    
+/* Testimonial section */              
+@import './section-testimonial';      
+                                    
+/* Footer */                          
+@import './footer';                   
 
-/*-----------------------------------------------------------*/
+/*--------------------------- HOME PAGE --------------------------------*/
 
-/* Home main section */                /*                  */
-@import './home/section-main';         /*                  */
-                                       /*                  */
-/* Menu section */                     /*    HOME PAGE     */
-@import './home/section-menu';         /*                  */
-                                       /*                  */
-/* Welcome section */                  /*                  */
-@import './home/section-welcome';      /*                  */
+/* Home main section */               
+@import './home/section-main';        
+                                    
+/* Menu section */                     
+@import './home/section-menu';        
+                                    
+/* Welcome section */                 
+@import './home/section-welcome';     
 
-/*-----------------------------------------------------------*/        
+/*--------------------------- MENU PAGE -------------------------------*/        
 
 /* Menu main section */
-@import './menu/section-main';          /*                  */
-                                        /*                  */
+@import './menu/section-main';         
+                                    
 /* Menu section */
 @import './menu/section-menu';
 
-/*-----------------------------------------------------------*/
+/*--------------------------- ABOUT PAGE -------------------------------*/
 
-@import './about/section-main';         /*                  */
-                                        /*                  */
+@import './about/section-main';        
+                                    
 @import './about/section-about';
 
-/*---------------------------------------------------------------*/
+/*--------------------------- CONTACT PAGE -----------------------------------*/
 
-@import './contact/section-main';           /*                  */
+@import './contact/section-main';          
                                                             
 @import './contact/section-contact';
 

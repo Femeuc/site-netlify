@@ -1,14 +1,6 @@
 /* Color variables */
-/*                  */
-/* cor usada no footer */
-/*                  */
-/*                  */
 /* Repetitive code */
-/*                  */
-/*                  */
-/*    ALL PAGES     */
 /* Global */
-/*                  */
 * {
   padding: 0;
   margin: 0;
@@ -23,7 +15,6 @@ body a {
 }
 
 body a:hover {
-  /* hover */
   color: #facb0b;
   text-decoration: none;
 }
@@ -56,10 +47,7 @@ body h4 {
   font-family: 'Lobster',cursive;
 }
 
-/*                  */
-/*                  */
 /* Header */
-/*                  */
 .site-header {
   padding: 0px 60px;
 }
@@ -92,10 +80,7 @@ body h4 {
   }
 }
 
-/*                  */
-/*                  */
 /* Testimonial section */
-/*    ALL PAGES     */
 .section-testimonial {
   margin-top: 20px;
 }
@@ -146,10 +131,7 @@ body h4 {
   background-color: #34702c;
 }
 
-/*                  */
-/*                  */
 /* Footer */
-/*                  */
 .site-footer {
   text-align: center;
   background-color: #3A3A3A;
@@ -165,10 +147,8 @@ body h4 {
   color: #EDAE49;
 }
 
-/*                  */
-/*-----------------------------------------------------------*/
+/*--------------------------- HOME PAGE --------------------------------*/
 /* Home main section */
-/*                  */
 .section-main-home {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/plates-background.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/plates-background.jpg");
@@ -185,10 +165,7 @@ body h4 {
   font-size: 40px;
 }
 
-/*                  */
-/*                  */
 /* Menu section */
-/*    HOME PAGE     */
 .section-menu-showcase {
   padding: 20px 150px;
   background-color: #FEF5CE;
@@ -234,10 +211,7 @@ body h4 {
   }
 }
 
-/*                  */
-/*                  */
 /* Welcome section */
-/*                  */
 .section-welcome {
   padding: 20px 20px;
   text-align: center;
@@ -285,8 +259,7 @@ body h4 {
   }
 }
 
-/*                  */
-/*-----------------------------------------------------------*/
+/*--------------------------- MENU PAGE -------------------------------*/
 /* Menu main section */
 .section-main-menu {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/menu-main.jpg");
@@ -304,8 +277,6 @@ body h4 {
   font-size: 40px;
 }
 
-/*                  */
-/*                  */
 /* Menu section */
 .section-menu {
   padding: 20px;
@@ -355,7 +326,7 @@ body h4 {
   padding-right: 60px;
 }
 
-/*-----------------------------------------------------------*/
+/*--------------------------- ABOUT PAGE -------------------------------*/
 .section-main-about {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/about-main.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/about-main.jpg");
@@ -372,8 +343,6 @@ body h4 {
   font-size: 40px;
 }
 
-/*                  */
-/*                  */
 .section-prizes {
   background-image: url("../images/prize.jpg");
   background-repeat: no-repeat;
@@ -438,7 +407,7 @@ body h4 {
   }
 }
 
-/*---------------------------------------------------------------*/
+/*--------------------------- CONTACT PAGE -----------------------------------*/
 .section-main-contact {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/contact-main.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/contact-main.jpg");
@@ -455,7 +424,6 @@ body h4 {
   font-size: 40px;
 }
 
-/*                  */
 .section-contact {
   padding: 40px 80px;
 }
